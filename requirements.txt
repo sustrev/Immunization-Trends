@@ -1,0 +1,4 @@
+dash==2.6.1
+dash-bootstrap-components==1.2.1
+numpy==1.23.3
+pandas==1.4.4
