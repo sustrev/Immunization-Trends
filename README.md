@@ -8,7 +8,9 @@
  
  As this dashboard is built with Plotly Dash, these graphs are inherently highly interactive. Lines can be selected or hidden, areas can be zoomed in, and displays can be saved to your local machine. A tooltip provides specific information on hover.
 
+## How To Run
+After cloning this repository, setting up a virtual environment, and installing required packages, you can run this app locally with `python app.py` and then opening a browser window and going to localhost:8501. This app is set to use port 8501, which can be changed in the code as needed.
 
 ## Screenshot
 
-(insert screenshot gif here once I've created it)
+![Demonstration gif of dashboard in use](dashboard_demo.gif)
