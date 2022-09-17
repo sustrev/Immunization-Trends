@@ -335,16 +335,16 @@ app.layout = html.Div(
     [
         dbc.Row(
             [
-                dbc.Col(html.Div(description_card()), width = 3),
-                dbc.Col(html.Div(generate_save_card()), width = 3),
-                dbc.Col(html.Div(generate_immunization_selector()), width = 3),
+                dbc.Col(html.Div(description_card())),
+                dbc.Col(html.Div(generate_save_card())),
+                dbc.Col(html.Div(generate_immunization_selector())),
             ]
         ),
         dbc.Row(
             [
-                dbc.Col(html.Div(generate_control_card()), width = 3),
-                dbc.Col(html.Div(dcc.Graph(id='demo_graph')), width = 3),
-                dbc.Col(html.Div(dcc.Graph(id='compare_graph')), width = 3),
+                dbc.Col(html.Div(generate_control_card())),
+                dbc.Col(html.Div(dcc.Graph(id='demo_graph'))),
+                dbc.Col(html.Div(dcc.Graph(id='compare_graph'))),
             ]
         ),
     ]
